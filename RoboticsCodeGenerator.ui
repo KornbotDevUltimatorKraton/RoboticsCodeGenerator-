@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RoboticsCodGen</class>
+ <widget class="QMainWindow" name="RoboticsCodGen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Robotics Code Generator</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File </string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="actionsave"/>
+    <addaction name="actionsave_as"/>
+   </widget>
+   <widget class="QMenu" name="menusettings">
+    <property name="title">
+     <string>settings</string>
+    </property>
+    <widget class="QMenu" name="menuVision_system">
+     <property name="title">
+      <string>Vision system </string>
+     </property>
+     <addaction name="actionImage_to_Text"/>
+     <addaction name="actionObject_recognition"/>
+     <addaction name="actionFacial_recognition"/>
+     <addaction name="actionAnimal_recognition"/>
+     <addaction name="actionEdge_detection"/>
+     <addaction name="actionColor_detection"/>
+     <addaction name="actionFeature_extraction"/>
+    </widget>
+    <addaction name="separator"/>
+    <addaction name="actionIoT"/>
+    <addaction name="menuVision_system"/>
+    <addaction name="actionNavigation_system"/>
+    <addaction name="actionTooling_automation"/>
+    <addaction name="actionSpeech_recognition"/>
+    <addaction name="actionText_to_speech"/>
+    <addaction name="actionMotion_joints_calibration"/>
+    <addaction name="actionData"/>
+    <addaction name="actionMachinelearning"/>
+    <addaction name="actionA_I"/>
+    <addaction name="actionDeep_Learning"/>
+    <addaction name="actionKinamatic_function"/>
+   </widget>
+   <widget class="QMenu" name="menuhelp">
+    <property name="title">
+     <string>help</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuNetworking">
+    <property name="title">
+     <string>Networking </string>
+    </property>
+    <addaction name="actionGoogle_cloud"/>
+    <addaction name="actionGoogle_drive"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menusettings"/>
+   <addaction name="menuNetworking"/>
+   <addaction name="menuhelp"/>
+  </widget>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionsave">
+   <property name="text">
+    <string>save </string>
+   </property>
+  </action>
+  <action name="actionsave_as">
+   <property name="text">
+    <string>save as </string>
+   </property>
+  </action>
+  <action name="actionIoT">
+   <property name="text">
+    <string>IoT</string>
+   </property>
+  </action>
+  <action name="actionNavigation_system">
+   <property name="text">
+    <string>Navigation system</string>
+   </property>
+  </action>
+  <action name="actionTooling_automation">
+   <property name="text">
+    <string>Tooling automation</string>
+   </property>
+  </action>
+  <action name="actionSpeech_recognition">
+   <property name="text">
+    <string>Speech recognition </string>
+   </property>
+  </action>
+  <action name="actionText_to_speech">
+   <property name="text">
+    <string>Text to speech  services </string>
+   </property>
+  </action>
+  <action name="actionMotion_joints_calibration">
+   <property name="text">
+    <string>Motion joints calibration</string>
+   </property>
+  </action>
+  <action name="actionData">
+   <property name="text">
+    <string>Data </string>
+   </property>
+  </action>
+  <action name="actionMachinelearning">
+   <property name="text">
+    <string>Machinelearning </string>
+   </property>
+  </action>
+  <action name="actionA_I">
+   <property name="text">
+    <string>A.I </string>
+   </property>
+  </action>
+  <action name="actionDeep_Learning">
+   <property name="text">
+    <string>Deep Learning </string>
+   </property>
+  </action>
+  <action name="actionKinamatic_function">
+   <property name="text">
+    <string>Kinamatic function </string>
+   </property>
+  </action>
+  <action name="actionGoogle_cloud">
+   <property name="text">
+    <string>Google cloud</string>
+   </property>
+  </action>
+  <action name="actionGoogle_drive">
+   <property name="text">
+    <string>Google drive</string>
+   </property>
+  </action>
+  <action name="actionImage_to_Text">
+   <property name="text">
+    <string>Image to Text</string>
+   </property>
+  </action>
+  <action name="actionObject_recognition">
+   <property name="text">
+    <string>Object recognition</string>
+   </property>
+  </action>
+  <action name="actionFacial_recognition">
+   <property name="text">
+    <string>Facial recognition </string>
+   </property>
+  </action>
+  <action name="actionAnimal_recognition">
+   <property name="text">
+    <string>Animal recognition </string>
+   </property>
+  </action>
+  <action name="actionEdge_detection">
+   <property name="text">
+    <string>Edge detection</string>
+   </property>
+  </action>
+  <action name="actionColor_detection">
+   <property name="text">
+    <string>Color detection </string>
+   </property>
+  </action>
+  <action name="actionFeature_extraction">
+   <property name="text">
+    <string>Feature extraction </string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
